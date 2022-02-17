@@ -21,7 +21,7 @@ function App() {
   const [mySongs, setMySongs] = useState(mySongsInit);
   const [search, setSearch] = useState(searchInit);
   const [currentSong, setCurrentSong] = useState({});
-  const [error, setError] = useState(false);
+  const [setError] = useState(false);
 
   //Función de Efecto
   useEffect(() => {
