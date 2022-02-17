@@ -44,8 +44,8 @@ function App() {
           lyrics: songJSON.lyrics
         }
         )
-      } catch (error) {
-        console.log(error)
+      } catch (error1) {
+        console.log(error1)
         setSearch({
           artist,
           song,
