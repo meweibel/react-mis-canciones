@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { CssBaseline } from '@mui/material';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import Buscador from './components/Buscador';
@@ -63,6 +63,7 @@ function App() {
 
   return (
     <Router>
+      <HashRouter>
       <CssBaseline>
         <div className="App">
           <Header />
@@ -94,6 +95,7 @@ function App() {
           </Routes>
         </div>
       </CssBaseline>
+      </HashRouter>
     </Router>
   );
 }
