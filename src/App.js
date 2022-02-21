@@ -64,6 +64,7 @@ function App() {
   return (
     <Router>
       <HashRouter>
+      <CssBaseline>
         <div className="App">
           <Header />
           <Routes>
