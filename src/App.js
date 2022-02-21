@@ -63,6 +63,7 @@ function App() {
 
   return (
     <Router>
+      <HashRouter>
         <div className="App">
           <Header />
           <Routes>
